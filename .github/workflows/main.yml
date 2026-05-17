@@ -1,0 +1,14 @@
+name: Fristworkflow
+on: 
+   push:
+    branches: 
+     - main 
+jobs:
+   example-job:
+    runs-on: ubuntu-latest
+    
+steps:
+    - name: Printa Welcome message
+    run: echo " Welome in first"
+         
+     
