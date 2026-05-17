@@ -4,11 +4,11 @@ on:
     branches: 
      - main 
 jobs:
-   example-job:
-    runs-on: ubuntu-latest
+    example-job:
+      runs-on: ubuntu-latest
     
-steps:
-    - name: Printa Welcome message
-    run: echo " Welome in first"
+      steps:
+       - name: Printa Welcome message
+         run: echo " Welome in first"
          
      
